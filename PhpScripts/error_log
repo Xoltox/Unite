@@ -1,0 +1,4 @@
+[17-Sep-2018 14:50:35 UTC] PHP Warning:  file_get_contents(http://localhost/vtest/PhpScripts/AjaxServerAccess.php?WebMethod=ExecuteQuery&amp;Query=DAInsertKhroneFlowData&amp;Params[]=42.108.232.89&amp;Params[]=2018-09-17+14%3A06&amp;Params[]=DE00001&amp;Params[]=79.56): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/pankaj21/public_html/vtest/PhpScripts/AjaxVetturinoWS.php on line 49
+[17-Sep-2018 15:47:18 UTC] PHP Warning:  file_get_contents(http://localhost/vtest/PhpScripts/AjaxServerAccess.php?WebMethod=ExecuteQuery&amp;Query=DAInsertKhroneFlowData&amp;Params[]=42.108.232.89&amp;Params[]=DE00002&amp;Params[]=65.82): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/pankaj21/public_html/vtest/PhpScripts/AjaxVetturinoWS.php on line 44

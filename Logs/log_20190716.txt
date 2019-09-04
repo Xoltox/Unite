@@ -1,0 +1,1 @@
+08:43:18..9194670 - [49.35.114.229] - [Id = 1, VAL = 1] - [http://vtest.pankajs.me/PhpScripts/AjaxVetturinoWS.php?id=1&val=1]

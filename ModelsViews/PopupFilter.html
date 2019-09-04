@@ -1,0 +1,84 @@
+﻿<!--
+	Copyright (c) 2019 Parth Sharma (parth.official@outlook.com) - All Rights Reserved
+
+	Permission is hereby granted, free of charge, to any person obtaining a copy
+	of this software and associated documentation files (the "Software"), to deal
+	in the Software without restriction, including without limitation the rights
+	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+	copies of the Software, and to permit persons to whom the Software is
+	furnished to do so, subject to the following conditions:
+
+	The above copyright notice and this permission notice shall be included in all
+	copies or substantial portions of the Software.
+
+	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+	SOFTWARE.
+-->
+<div class="UniteMask"></div>
+<div class="UnitePopup" style="width: 675px; border: 0px solid red">
+    <div class="topcoat-navigation-bar--popup" style="">
+        <div class="topcoat-navigation-bar__item--popup left three-quarters">
+            <h1 class="topcoat-navigation-bar__title--popup Title" style="">Set Data Criterion</h1>
+        </div>
+        <div class="topcoat-navigation-bar__item--popup right quarter" style="">
+            <div class="topcoat-button--large Icomatic ButtonClose" style="vertical-align: middle; padding: 0 .563rem;">
+                
+            </div>
+        </div>
+    </div>
+    <div class="UtListContainer" style="border: none; margin-bottom: 10px; padding-top:10px; text-align: center;">
+        <div class="TmplTypeHolder" style="height: 450px; width: 250px; display: inline-block; box-shadow: 0px 0px 1px black; margin: 5px; padding: 0px; vertical-align: top">
+        </div>
+        <div class="TmplTagHolder" style="height: 450px; width: 250px; display: inline-block; box-shadow: 0px 0px 1px black; margin: 5px; padding: 0px; vertical-align: top">
+        </div>
+        <div style="height: 450px; width: 100px; display: inline-block; box-shadow: 0px 0px 1px black; margin: 5px; padding: 0px; vertical-align: top">
+            <div style="height: 25px; padding: 2px; text-align: center; text-shadow: 2px 2px 2px black; background-color: rgb(65, 65, 68); box-shadow: 0px 1px 2px black;">
+                Select Period
+                <div id="DateRangeFilterSlider" style="border: 1px solid dashed; margin: 25px 20px 35px 35px; height: 360px;">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="text-align: center">
+        <button class="topcoat-button--large--cta ButtonOk DefaultButton">Ok</button>
+    </div>
+</div>
+
+<script id="TmplType" type="text/x-handlebars-template">
+    <div style="height: 25px; padding: 2px; text-align: center; text-shadow: 2px 2px 2px black; background-color: rgb(65, 65, 68);box-shadow: 0px 1px 2px black;">
+        Select Type
+    </div>
+    <ul style="overflow-y: scroll; overflow-x: hidden; height: 418px; margin-top: 2px;">
+        {{#.}}
+            <li style="border-bottom: 1px solid #474747;height: 18px; padding: 1px 0 6px 0; cursor: default">
+                <p style='width: 185px; text-align: left; display: inline-block; text-overflow: ellipsis; overflow:hidden; white-space:nowrap'>{{Name}}</p>
+                <label class="topcoat-checkbox">
+                    <input type="checkbox" data-id="{{Id}}" data-name="{{Name}}" class="ClickTagTypeToSelect">
+                    <div class="topcoat-checkbox__checkmark"></div>
+                </label>
+            </li>
+        {{/.}}
+    </ul>
+</script>
+
+<script id="TmplTag" type="text/x-handlebars-template">
+    <div style="height: 25px; padding: 2px; text-align: center; text-shadow: 2px 2px 2px black; background-color: rgb(65, 65, 68);box-shadow: 0px 1px 2px black;">
+        Select Device
+    </div>
+    <ul style="overflow-y: scroll; overflow-x: hidden; height: 418px    ; margin-top: 2px;">
+        {{#.}}
+            <li style="border-bottom: 1px solid #474747;height: 18px; padding: 1px 0 6px 0; cursor: default">
+                <p style='width: 185px; text-align: left; display: inline-block; text-overflow: ellipsis; overflow:hidden; white-space:nowrap'>{{Name}}</p>
+                <label class="topcoat-checkbox">
+                    <input type="checkbox" data-id="{{Id}}" data-name="{{Name}}" class="ClickTagToSelect">
+                    <div class="topcoat-checkbox__checkmark"></div>
+                </label>
+            </li>
+        {{/.}}
+    </ul>
+</script>

@@ -1,0 +1,332 @@
+/*
+	Copyright (c) 2019 Parth Sharma (parth.official@outlook.com) - All Rights Reserved
+
+	Permission is hereby granted, free of charge, to any person obtaining a copy
+	of this software and associated documentation files (the "Software"), to deal
+	in the Software without restriction, including without limitation the rights
+	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+	copies of the Software, and to permit persons to whom the Software is
+	furnished to do so, subject to the following conditions:
+
+	The above copyright notice and this permission notice shall be included in all
+	copies or substantial portions of the Software.
+
+	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+	SOFTWARE.
+*/
+
+/* CSS Stylesheet for Unite */
+html, body
+{
+	min-height: 100% !important;
+	height: 100%;
+}
+
+.UniteMask
+{
+	display: block;
+	background: transparent url(../Images/Bg_262626.png);
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 10;
+	width: 100%;
+	height: 100%;
+	opacity: 0.8;
+	z-index: 999;
+}
+
+.UnitePopup
+{
+	display: none;
+	background: #4A4D4E;
+	position: fixed;
+	z-index: 99999;
+	box-shadow: 1px 1px 6px 2px rgb(23, 23, 23);
+	top: 50%;
+	left: 50%;
+	margin: 10px;
+	padding-bottom: 10px;
+	width: 320px;
+	margin-left: -160px;
+}
+
+.UtLogoCompositeWM
+{
+	background-image: url("../Images/LogoComposite.png");
+	background-repeat: no-repeat;
+	width: 300px;
+	height: 82px;
+	margin: 0 auto;
+	padding-bottom: 25px;
+	opacity: 0.1;
+}
+
+.UtLogoComposite
+{
+	background-image: url("../Images/LogoComposite.png");
+	background-size: 200px 54px;
+	background-repeat: no-repeat;
+	width: 200px;
+	height: 54px;
+	margin: 0 auto;
+}
+
+.UnitePopup .UnitePageHeader
+{
+	background: rgb(35,35,35);
+	padding: 2px;
+	border-radius: 0;
+	text-align: center;
+	color: #FFFFCE;
+	font-size: 24px;
+}
+
+.Title
+{
+	color: white;
+	text-shadow: 2px 2px 2px black;
+}
+
+.UtDivAsHLink
+{
+    color: #288edf;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.UtCombo
+{
+	background-position: right 7px center;
+	background-image: url('./Images/dark-combo-box-bg.png');
+	padding: 0 25px 0 5px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+
+}
+
+.UtListContainer
+{
+	border-bottom: 1px solid #58595A;
+	margin: 2px;
+	overflow-y: auto;
+}
+
+	.UtListContainer table
+	{
+		margin: 0;
+		padding: 0px;
+		width: 100%;
+		border-collapse: separate;
+		/*border-top: 0px solid #404040;
+        border-bottom: 1px solid #262626;*/
+	}
+
+	.UtListContainer tr
+	{
+		cursor: pointer;
+		border-bottom: 1px solid black;
+	}
+
+	.UtListContainer thead
+	{
+		cursor: normal;
+		background-color: #555555;
+	}
+
+		.UtListContainer thead td
+		{
+			cursor: normal;
+			border-bottom: 1px solid black;
+		}
+
+	.UtListContainer tr.sticky
+	{
+		cursor: pointer;
+		float: right;
+		position: fixed;
+		top: 0;
+	}
+
+	.UtListContainer td
+	{
+		padding: 5px 15px 5px 15px;
+		border-bottom: 1px solid #58595A;
+		border-collapse: collapse;
+	}
+
+	.UtListContainer tr.UtListHeader td
+	{
+		width: 100px;
+		color: black;
+	}
+
+	.UtListContainer.UtListAddGeneral td:nth-of-type(1)
+	{
+		color: #bbbbbb;
+	}
+
+	.UtListContainer.UtListAddGeneral td:nth-of-type(2)
+	{
+		padding-right: 30px;
+	}
+
+	.UtListContainer.UtListAddGeneral tr:nth-of-type(1) td:nth-of-type(1)
+	{
+		width: 150px;
+	}
+
+	.UtListContainer.UtListAddGeneral input[type='text']
+	{
+		width: 100%;
+		display: inline-block;
+		padding: 0 10px 4px 10px;
+		min-width: 40px;
+		text-align: left;
+		font-size: 20px;
+		font-family: 'Segoe UI Light', Arial, Sans-Serif;
+		font-weight: normal;
+		text-shadow: 1px 1px 1px black;
+		line-height: 26px;
+		vertical-align: top;
+		border: 0;
+		border-radius: 5px;
+		box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.06);
+		cursor: pointer;
+		color: #ffffff;
+		height: 32px;
+		background: rgba(0, 0, 0, 0.16);
+	}
+
+	.UtListContainer img
+	{
+		display: inline-block;
+		margin-right: 8px;
+	}
+
+	.UtListContainer p
+	{
+		margin: 0px;
+		font-weight: bold;
+		color: #bbbbbb;
+		padding: 4px;
+	}
+
+	.UtListContainer.UtListGeneral p
+	{
+		margin: 0px;
+		font-weight: normal;
+		color: #bbbbbb;
+	}
+
+	.UtListContainer ul
+	{
+		margin: 0;
+		padding: 0px;
+		list-style: none;
+	}
+
+	.UtListContainer li
+	{
+		margin: 0;
+		padding: 0px;
+		width: 100%;
+		border-collapse: separate;
+		height: 45px;
+	}
+
+		.UtListContainer li span
+		{
+			width: 120px;
+			display: inline-block;
+		}
+
+.ViewContainer
+{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	min-height: 100%;
+	height: 100%;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	border: 0px solid red;
+}
+
+.RotatedText
+{
+	font-size: 22px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+	-webkit-transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+	transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+}
+
+input[type=checkbox]
+{
+	cursor: pointer;
+}
+
+.menu-icon
+{
+	margin: 0 10px 0 5px;
+}
+
+.GoogleMapLabels
+{
+	color: #767676;
+	background-color: #FFFFCC;
+	font-family: "Lucida Grande", "Arial", sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: left;
+	border: 1px solid #767676;
+	white-space: nowrap;
+	padding: 2px;
+	box-shadow: 1px 1px 5px #767676;
+	z-index: 1;
+}
+
+.GoogleMapLabelsHovered
+{
+	color: #767676;
+	background-color: #FFFFCC;
+	font-family: "Lucida Grande", "Arial", sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: left;
+	border: 1px solid #767676;
+	white-space: nowrap;
+	padding: 2px;
+	box-shadow: 1px 1px 5px #767676;
+	z-index: 100;
+}
+
+	tr.DataList
+	{
+		border: 1px dotted darkgreen;
+	}
+
+	td.DataList
+	{
+		padding: 1px;
+		border: 1px dotted #353535;
+		text-align: right;
+		width: 100px;
+	}
+
+	td.DataListHeader
+	{
+		text-align: right;
+		background-color: #333333;
+		border: 1px dotted gray;
+		text-overflow: ellipsis;
+		font-weight:bold;
+	}

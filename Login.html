@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<title>Vetturino Test</title>
+
+	<script type="text/javascript">
+		function Debug(GivenString)
+		{
+			console.log(new Date().getHours() + ":" + new Date().getMinutes() + ":" + new Date().getSeconds() + ":" + new Date().getMilliseconds() + ": " + GivenString);
+		}
+		Debug("App Started!");
+	</script>
+
+<link rel="icon" type="image/x-icon" href="./Images/favicon.ico">
+<link rel="stylesheet" href="Styles/Topcoat-Base.css">
+<link rel="stylesheet" href="Styles/Topcoat-Desktop-Dark.css">
+<link rel="stylesheet" href="Styles/UniteMain.css">
+<link rel="stylesheet" href="Styles/Fonts.css" />
+<link rel="stylesheet" href="Styles/FileUploader.css" />
+<link rel="stylesheet" href="Styles/bootstrap-datepicker.standalone.min.css" />
+</head>
+<body style="">
+	<!--<div class="ContentWrapper" style="height: 100%; width: 100%; display:table; border: pink 1px dashed">-->
+	<!-- Fixed Navigation Bar -->
+	<div class="topcoat-navigation-bar" style="display: none;  height: 45px">
+		<div class="topcoat-button--large--cta WebSymbols ButtonMenu" style="padding: 0 10px; margin: 7px 0px 0px 0px ;">
+			²
+		</div>
+		<span style="padding: 10px; display: inline-block; font-size: 20px;">Vetturino Demo</span>
+	</div>
+
+	<!-- Fixed Menu Bar -->
+	<div class="side-nav" style="display: none;  z-index: 2;">
+		<nav class="site">
+			<ul class="topcoat-list side-nav__list"></ul>
+		</nav>
+	</div>
+
+	<!-- Main Container for each view -->
+	<div class="ViewContainer"></div>
+	<!--</div>-->
+	<div id="PopupWait" style="display: block;">
+		<div class="UniteMask"></div>
+		<div class="UnitePopup" style="display:block; width:240px; top: 200px;">
+			<div class="UnitePageHeader" style="margin-bottom: 5px; font-size: 20px; line-height: 32px;">
+				<span class="Title">Please Wait!</span>
+			</div>
+			<div class="UtListContainer" style="border: none; margin-bottom: 20px; text-align: center;margin-bottom: 10px;">
+				<img alt="" src="./Images/AnimationWait.gif" style="position: relative; margin: 5px auto; height: 50px; width: 50px"><br>
+				&nbsp;&nbsp;
+				<span class="PopupWaitText">Loading Components!</span>
+			</div>
+		</div>
+	</div>
+
+	<script id="TmplMenuList" type="text/x-handlebars-template">
+		{{#.}}
+		<li class="topcoat-list__item side-nav__list__item is-active" style="">
+			<a href="#{{MenuView}}" class="side-nav__button">
+				<p><span class="menu-icon WebSymbols">{{MenuIcon}}</span>{{MenuTitle}}</p>
+			</a>
+		</li>
+		{{/.}}
+	</script>
+	<script type="text/javascript" src="Common/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="Common/jquery.cookie.js"></script>
+	<script type="text/javascript" src="Common/jquery.liblink.js"></script>
+	<script type="text/javascript" src="Common/handlebars.js"></script>
+	<script type="text/javascript" src="Common/Chart.bundle.js"></script>
+	<script type="text/javascript" src="Common/UniteCommon.js"></script>
+	<script type="text/javascript" src="Common/UniteDataAdapter.js"></script>
+	<script type="text/javascript" src="Common/UniteDateTimeFunctions.js"></script>
+	<script type="text/javascript" src="Common/UniteCache.js"></script>
+	<script type="text/javascript" src="Common/UniteUIHandlers.js"></script>
+	<script type="text/javascript" src="Common/UniteAppStart.js"></script>
+	<script type="text/javascript" src="Common/bootstrap.min.js"></script>
+	<script type="text/javascript" src="Common/bootstrap-datepicker.min.js"></script>
+	<!-- JavaScript Includes for File Uploader -->
+	<script type="text/javascript" src="Common/jquery.knob.js"></script>
+	<script type="text/javascript" src="Common/jquery.ui.widget.js"></script>
+	<script type="text/javascript" src="Common/jquery.fileupload.js"></script>
+	<script type="text/javascript" src="Common/ajaxuploadscript.js"></script>
+
+	<script type="text/javascript" src="ModelsViews/PopupFilter.js" class="MenuScript"></script>
+	<script type="text/javascript" src="ModelsViews/ViewLogin.js" class="MenuScript"></script>
+	<script type="text/javascript" src="ModelsViews/ViewGraphicalData.js" class="MenuScript"></script>
+	<script type="text/javascript" src="ModelsViews/ViewDataList.js" class="MenuScript"></script>
+</body>
+</html>
+
+

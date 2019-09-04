@@ -1,0 +1,130 @@
+﻿@font-face
+{
+    font-family: "SourceSans";
+    src: url(./Fonts/SourceSansPro-Regular.otf);
+}
+
+@font-face
+{
+    font-family: "SourceSans";
+    src: url(./Fonts/SourceSansPro-Light.otf);
+    font-weight: 200;
+}
+
+@font-face
+{
+    font-family: "SourceSans";
+    src: url(./Fonts/SourceSansPro-Semibold.otf);
+    font-weight: 600;
+}
+
+@font-face 
+{
+    font-family: 'Icomatic';
+    src: url(./Fonts/Icomatic.eot) format('embedded-opentype') local('Icomatic') local('Icomatic Regular') local('Icomatic-Regular');
+    src: url(./Fonts/Icomatic.woff) format('woff') local('Icomatic') local('Icomatic Regular') local('Icomatic-Regular');
+    src: url(./Fonts/Icomatic.ttf) format('truetype') local('Icomatic') local('Icomatic Regular') local('Icomatic-Regular');
+}
+
+@font-face 
+{
+	font-family: 'Wingdings';
+	src: url('./Fonts/WINGDING.eot');
+	src: local('☺'), url('./Fonts/WINGDING.woff') format('woff'), url('./Fonts/WINGDING.ttf') format('truetype'), url('./Fonts/WINGDING.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face 
+{
+	font-family: 'Wingdings2';
+	src: url('./Fonts/WINGDNG2.eot');
+	src: local('☺'), url('./Fonts/WINGDNG2.woff') format('woff'), url('./Fonts/WINGDNG2.ttf') format('truetype'), url('./Fonts/WINGDNG2.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face 
+{
+	font-family: 'Wingdings3';
+	src: url('./Fonts/WINGDNG3.eot');
+	src: local('☺'), url('./Fonts/WINGDNG3.woff') format('woff'), url('./Fonts/WINGDNG3.ttf') format('truetype'), url('./Fonts/WINGDNG3.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face 
+{
+	font-family: 'Webdings';
+	src: url('./Fonts/WEBDINGS.eot');
+	src: local('☺'), url('./Fonts/WEBDINGS.woff') format('woff'), url('./Fonts/WEBDINGS.ttf') format('truetype'), url('./Fonts/WEBDINGS.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face 
+{
+	font-family: 'WebSymbols';
+	src: url('./Fonts/WEBSYMBOLS-REGULAR.eot');
+	src: local('☺'), url('./Fonts/WEBSYMBOLS-REGULAR.woff') format('woff'), url('./Fonts/WEBSYMBOLS-REGULAR.ttf') format('truetype'), url('./Fonts/WEBSYMBOLS-REGULAR.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face 
+{
+	font-family: 'TickingTimeBomb';
+	src: url('./Fonts/TICKINGTIMEBOMBBB_0.eot');
+	src: local('☺'), url('./Fonts/TICKINGTIMEBOMBBB_0.woff') format('woff'), url('./Fonts/TICKINGTIMEBOMBBB_0.ttf') format('truetype'), url('./Fonts/TICKINGTIMEBOMBBB_0.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face 
+{
+	font-family: 'TickingTimeBombItalic';
+	src: url('./Fonts/TICKINGTIMEBOMBBB_ITAL_0.eot');
+	src: local('☺'), url('./Fonts/TICKINGTIMEBOMBBB_ITAL_0.woff') format('woff'), url('./Fonts/TICKINGTIMEBOMBBB_ITAL_0.ttf') format('truetype'), url('./Fonts/TICKINGTIMEBOMBBB_ITAL_0.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.Icomatic 
+{
+    font-family: 'Icomatic', Arial, Verdana, sans-serif;
+}
+
+.Wingdings 
+{
+    font-family: 'Wingdings', Arial, Verdana, sans-serif;
+}
+
+.Wingdings2 
+{
+    font-family: 'Wingdings2', Arial, Verdana, sans-serif;
+}
+
+.Wingdings3 
+{
+    font-family: 'Wingdings3', Arial, Verdana, sans-serif;
+}
+
+.Webdings 
+{
+    font-family: 'Webdings', Arial, Verdana, sans-serif;
+}
+
+.WebSymbols 
+{
+    font-family: 'WebSymbols', Arial, Verdana, sans-serif;
+}
+
+.TickingTimeBomb 
+{
+    font-family: 'TickingTimeBomb', Arial, Verdana, sans-serif;
+}
+
+.TickingTimeBombItalic 
+{
+    font-family: 'TickingTimeBombItalic', Arial, Verdana, sans-serif;
+}

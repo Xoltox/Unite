@@ -1,0 +1,1 @@
+06:03:02..3328810 - [1.187.62.26] - [Id = %22DE00001%22, VAL = %2230%22] - [http://vtest.pankajs.me/PhpScripts/AjaxVetturinoWS.php?id=%22DE00001%22&val=%2230%22]

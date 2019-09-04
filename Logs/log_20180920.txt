@@ -1,0 +1,2 @@
+11:04:11..8649460 - [42.108.227.56] - [Id = DE00002, VAL = 65.82] - [http://vtest.pankajs.me/PhpScripts/AjaxVetturinoWS.php?id=DE00002&val=65.82]
+11:24:26..0565250 - [42.108.227.56] - [Id = DE00002, VAL = 345] - [http://vtest.pankajs.me/PhpScripts/AjaxVetturinoWS.php?id=DE00002&val=345]

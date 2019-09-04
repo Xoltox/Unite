@@ -1,0 +1,1 @@
+08:58:14..1641520 - [42.108.225.53] - [Id = DE000024, VAL = 26.890] - [http://vtest.pankajs.me/PhpScripts/AjaxVetturinoWS.php?id=DE000024&val=26.890]
